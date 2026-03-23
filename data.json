@@ -1,0 +1,1510 @@
+{
+  "users": [
+    {
+      "id": "U1",
+      "name": "Taha",
+      "username": "taha",
+      "passwordHash": "$2a$10$6ZbeBJwrurjYuv0bg57Tnus0Br8zW9RDkoXlVSu1NacTzzFv0jbxa",
+      "role": "admin",
+      "avatar": "T",
+      "mustChangePassword": false,
+      "passwordChangedAt": 1772696125127
+    },
+    {
+      "id": "U1772870734698",
+      "name": "Bayezid Ertaş",
+      "username": "beyo",
+      "role": "operator",
+      "avatar": "B",
+      "passwordHash": "$2a$10$goB85YTgfGEeG.aFo7S5EO2rqSGUKQlr1tsF7hWlLxXEpl4gvbqH6",
+      "mustChangePassword": false,
+      "passwordChangedAt": 1772870956513
+    },
+    {
+      "id": "U1772870747114",
+      "name": "Melih Poyraz",
+      "username": "melo",
+      "role": "operator",
+      "avatar": "M",
+      "passwordHash": "$2a$10$bPS3HNep0rZ576OarTPDcOjNw0d87a4j5hHxUYYefD4tB9UmtUqDq",
+      "mustChangePassword": true
+    },
+    {
+      "id": "U1772870760606",
+      "name": "Fatih Duvarcı",
+      "username": "fatih",
+      "role": "operator",
+      "avatar": "F",
+      "passwordHash": "$2a$10$r8Ro3Asnqg37kC4mekZja.49IpfKbUQT/eoEtZf3ELeHplco2f9wO",
+      "mustChangePassword": true
+    },
+    {
+      "id": "U1772870780999",
+      "name": "Berat Demirel",
+      "username": "momo",
+      "role": "operator",
+      "avatar": "B",
+      "passwordHash": "$2a$10$AFqSQCm1c9Nfc7OZECZRneUoDTREMHXmLqWr/cA8T6OZTucef9one",
+      "mustChangePassword": true
+    },
+    {
+      "id": "U1772870799298",
+      "name": "İbrahim Hazar",
+      "username": "ibrahim",
+      "role": "planner",
+      "avatar": "İ",
+      "passwordHash": "$2a$10$DfXLEmE1UyDRTz9uUAPWzubYPVi/TvjQZMQwS3j/JQAvR8fj7GLI2",
+      "mustChangePassword": false,
+      "passwordChangedAt": 1772870995635
+    }
+  ],
+  "userPerms": {
+    "U1772870799298": [
+      "orders_view",
+      "workorders_edit",
+      "cutting_edit",
+      "grinding_edit",
+      "planning_edit",
+      "coating_edit",
+      "shipping_edit",
+      "stock_edit",
+      "orders_edit",
+      "workorders_view",
+      "cutting_view",
+      "grinding_view",
+      "planning_view",
+      "production_view",
+      "qc_view",
+      "coating_view",
+      "shipping_view",
+      "stock_view",
+      "purchasing_view"
+    ],
+    "U1772870734698": [
+      "workorders_view",
+      "production_view",
+      "production_edit",
+      "qc_view",
+      "qc_edit"
+    ],
+    "U1772870747114": [
+      "workorders_view",
+      "production_view",
+      "production_edit",
+      "qc_view",
+      "qc_edit"
+    ],
+    "U1772870760606": [
+      "workorders_view",
+      "production_view",
+      "production_edit",
+      "qc_view",
+      "qc_edit"
+    ],
+    "U1772870780999": [
+      "workorders_view",
+      "cutting_view",
+      "cutting_edit",
+      "grinding_view",
+      "grinding_edit"
+    ]
+  },
+  "orders": [
+    {
+      "id": "SIP-2026-001",
+      "customerId": "220-01-001",
+      "customerCode": "220-01-001",
+      "customerName": "TOPRAK MÜH.KESİCİ TAKIM KASIM TOPRAK (GR)",
+      "date": "2026-03-05T07:35:50.618Z",
+      "deliveryDate": "2026-04-05",
+      "status": "completed",
+      "priority": "normal",
+      "notes": "",
+      "orderType": "production",
+      "currency": "EUR",
+      "items": [
+        {
+          "productType": "Std. Freze",
+          "toolCode": "",
+          "productCode": "Ø6x55",
+          "diameter": 6,
+          "length": 55,
+          "qty": 6,
+          "unitPrice": 15,
+          "coatingType": "ALCRN",
+          "coatingCompanyId": "CK2",
+          "materialCode": "BE-1",
+          "grinding": false,
+          "grindingType": "",
+          "estimatedMinutes": 7,
+          "pdfs": [],
+          "id": "I7eyzu6br2"
+        }
+      ]
+    },
+    {
+      "id": "SIP-2026-002",
+      "customerId": "220-42-092",
+      "customerCode": "220-42-092",
+      "customerName": "HEM TEKNİK METAL İŞLEME",
+      "date": "2026-03-05T07:49:38.902Z",
+      "deliveryDate": "2026-04-02",
+      "status": "completed",
+      "priority": "normal",
+      "notes": "",
+      "orderType": "production",
+      "currency": "EUR",
+      "items": [
+        {
+          "productType": "Std. Freze",
+          "toolCode": "",
+          "productCode": "Ø25x110",
+          "diameter": 25,
+          "length": 110,
+          "qty": 3,
+          "unitPrice": 0,
+          "coatingType": "TISIN",
+          "coatingCompanyId": "CK2",
+          "materialCode": "BE-1",
+          "grinding": false,
+          "grindingType": "",
+          "estimatedMinutes": 0,
+          "pdfs": [],
+          "id": "Iefb42gdvs"
+        }
+      ]
+    },
+    {
+      "id": "SIP-2026-003",
+      "customerId": "220-42-092",
+      "customerCode": "220-42-092",
+      "customerName": "HEM TEKNİK METAL İŞLEME",
+      "date": "2026-03-07T08:01:48.060Z",
+      "deliveryDate": "2026-04-24",
+      "status": "workorder",
+      "priority": "urgent",
+      "notes": "",
+      "orderType": "production",
+      "currency": "EUR",
+      "items": [
+        {
+          "productType": "Chatter Free Freze",
+          "toolCode": "Ø12x45x100",
+          "productCode": "Ø12x100",
+          "diameter": 12,
+          "length": 100,
+          "qty": 2,
+          "unitPrice": 0,
+          "coatingType": "Alcrn Pro",
+          "coatingCompanyId": "CK3",
+          "materialCode": "BE-1",
+          "grinding": false,
+          "grindingType": "",
+          "isTest": true,
+          "estimatedMinutes": 0,
+          "pdfs": [],
+          "id": "Ibxlgiw1lf"
+        }
+      ]
+    },
+    {
+      "customerId": "220-42-092",
+      "customerCode": "220-42-092",
+      "customerName": "HEM TEKNİK METAL İÅLEME",
+      "date": "2026-03-07T15:28:13.044Z",
+      "deliveryDate": "2026-04-03",
+      "status": "completed",
+      "priority": "normal",
+      "notes": "",
+      "orderType": "production",
+      "currency": "EUR",
+      "items": [
+        {
+          "productType": "Std. Freze",
+          "toolCode": "",
+          "productCode": "Ø10x55",
+          "diameter": 10,
+          "length": 55,
+          "qty": 5,
+          "unitPrice": 0,
+          "coatingType": "",
+          "coatingCompanyId": "CK2",
+          "materialCode": "BE-1",
+          "grinding": false,
+          "grindingType": "",
+          "isTest": false,
+          "estimatedMinutes": 0,
+          "pdfs": [],
+          "id": "Iw8d1vxm04"
+        }
+      ],
+      "id": "SIP-2026-004"
+    }
+  ],
+  "workOrders": [
+    {
+      "id": "IE-001-1",
+      "orderId": "SIP-2026-001",
+      "customerName": "TOPRAK MÜH.KESİCİ TAKIM KASIM TOPRAK (GR)",
+      "customerCode": "220-01-001",
+      "date": "2026-03-06T14:00:33.420Z",
+      "deliveryDate": "2026-04-05",
+      "status": "completed",
+      "currentStep": "completed",
+      "orderType": "production",
+      "currency": "EUR",
+      "log": [
+        {
+          "ts": "2026-03-06T14:00:33.420Z",
+          "user": "Taha",
+          "action": "İş emri oluşturuldu",
+          "detail": "Sipariş: SIP-2026-001"
+        },
+        {
+          "ts": "2026-03-06T14:00:46.070Z",
+          "user": "Taha",
+          "action": "Kesim tamamlandı",
+          "detail": "1 çubuk, 0mm fire"
+        },
+        {
+          "ts": "2026-03-07T07:25:43.784Z",
+          "user": "Taha",
+          "action": "Kesim tamamlandı",
+          "detail": "1 çubuk, 0mm fire"
+        },
+        {
+          "ts": "2026-03-07T07:25:51.970Z",
+          "user": "Taha",
+          "action": "Makineye atandı",
+          "detail": "S20-1 — Ahmet Yılmaz, 42dk"
+        },
+        {
+          "ts": "2026-03-07T08:18:22.751Z",
+          "user": "Taha",
+          "action": "Üretim başladı",
+          "detail": ""
+        },
+        {
+          "ts": "2026-03-07T08:18:24.487Z",
+          "user": "Taha",
+          "action": "Üretim tamamlandı",
+          "detail": "KK'ya gönderildi"
+        },
+        {
+          "ts": "2026-03-07T08:18:28.261Z",
+          "user": "Taha",
+          "action": "KK onaylandı",
+          "detail": ""
+        },
+        {
+          "ts": "2026-03-07T08:18:30.224Z",
+          "user": "Taha",
+          "action": "Lazer tamamlandı",
+          "detail": ""
+        },
+        {
+          "ts": "2026-03-07T08:18:34.255Z",
+          "user": "Taha",
+          "action": "Kaplama teslim alındı",
+          "detail": "İrsaliye: IRS-002"
+        },
+        {
+          "ts": "2026-03-07T08:18:39.353Z",
+          "user": "Taha",
+          "action": "Sevk edildi",
+          "detail": "Tamamlandı"
+        }
+      ],
+      "items": [
+        {
+          "productType": "Std. Freze",
+          "toolCode": "",
+          "productCode": "Ø6x55",
+          "diameter": 6,
+          "length": 55,
+          "qty": 6,
+          "unitPrice": 15,
+          "coatingType": "ALCRN",
+          "coatingCompanyId": "CK2",
+          "materialCode": "BE-1",
+          "grinding": false,
+          "grindingType": "",
+          "estimatedMinutes": 42,
+          "pdfs": [],
+          "id": "I7eyzu6br2",
+          "woStatus": "completed",
+          "machineId": "M1",
+          "operatorId": "O1",
+          "startTime": "2026-03-07T08:18:22.742Z",
+          "endTime": "2026-03-07T08:18:24.479Z",
+          "qcChecks": {
+            "dimensionOk": false,
+            "surfaceOk": false,
+            "runoutOk": false,
+            "visualOk": false,
+            "coreDiameterOk": true,
+            "faceOk": true,
+            "toolDiaSurfaceOk": true,
+            "fluteWidthOk": true
+          },
+          "laserDone": true,
+          "coatingSent": true,
+          "coatingReceived": true,
+          "purchaseRequestId": null,
+          "cutDate": "2026-03-07T07:25:43.776Z",
+          "cutBarsUsed": 1,
+          "cutRemnant": 0,
+          "dispatchId": "IRS-002"
+        }
+      ],
+      "priority": "normal"
+    },
+    {
+      "id": "IE-003-1",
+      "orderId": "SIP-2026-003",
+      "customerName": "HEM TEKNİK METAL İŞLEME",
+      "customerCode": "220-42-092",
+      "date": "2026-03-07T08:01:49.236Z",
+      "deliveryDate": "2026-04-24",
+      "status": "completed",
+      "currentStep": "completed",
+      "orderType": "production",
+      "currency": "EUR",
+      "log": [
+        {
+          "ts": "2026-03-07T08:01:49.236Z",
+          "user": "Taha",
+          "action": "İş emri oluşturuldu",
+          "detail": "Sipariş: SIP-2026-003"
+        },
+        {
+          "ts": "2026-03-07T08:02:04.998Z",
+          "user": "Taha",
+          "action": "Kesim tamamlandı",
+          "detail": "1 çubuk, 130mm fire"
+        },
+        {
+          "ts": "2026-03-07T08:02:15.872Z",
+          "user": "Taha",
+          "action": "Makineye atandı",
+          "detail": "S22-1 — Ahmet Yılmaz, 60dk"
+        },
+        {
+          "ts": "2026-03-07T08:02:19.899Z",
+          "user": "Taha",
+          "action": "Üretim başladı",
+          "detail": ""
+        },
+        {
+          "ts": "2026-03-07T08:02:29.515Z",
+          "user": "Taha",
+          "action": "Üretim tamamlandı",
+          "detail": "KK'ya gönderildi"
+        },
+        {
+          "ts": "2026-03-07T08:02:33.969Z",
+          "user": "Taha",
+          "action": "KK onaylandı",
+          "detail": ""
+        },
+        {
+          "ts": "2026-03-07T08:02:35.985Z",
+          "user": "Taha",
+          "action": "Lazer tamamlandı",
+          "detail": ""
+        },
+        {
+          "ts": "2026-03-07T08:02:39.833Z",
+          "user": "Taha",
+          "action": "Kaplama teslim alındı",
+          "detail": "İrsaliye: IRS-001 — Test ürünleri ARGE'ye yönlendirildi"
+        },
+        {
+          "ts": "2026-03-07T08:03:00.061Z",
+          "user": "Taha",
+          "action": "ARGE sonucu: ✅ Olumlu",
+          "detail": ""
+        }
+      ],
+      "items": [
+        {
+          "productType": "Chatter Free Freze",
+          "toolCode": "Ø12x45x100",
+          "productCode": "Ø12x100",
+          "diameter": 12,
+          "length": 100,
+          "qty": 2,
+          "unitPrice": 0,
+          "coatingType": "Alcrn Pro",
+          "coatingCompanyId": "CK3",
+          "materialCode": "BE-1",
+          "grinding": false,
+          "grindingType": "",
+          "isTest": true,
+          "estimatedMinutes": 0,
+          "pdfs": [],
+          "id": "Ibxlgiw1lf",
+          "woStatus": "completed",
+          "machineId": "M8",
+          "operatorId": "O1",
+          "startTime": "2026-03-07T08:02:19.888Z",
+          "endTime": "2026-03-07T08:02:29.505Z",
+          "qcChecks": {
+            "dimensionOk": false,
+            "surfaceOk": false,
+            "runoutOk": false,
+            "visualOk": false,
+            "coreDiameterOk": true,
+            "faceOk": true,
+            "toolDiaSurfaceOk": true,
+            "fluteWidthOk": true
+          },
+          "laserDone": true,
+          "coatingSent": true,
+          "coatingReceived": true,
+          "purchaseRequestId": null,
+          "cutDate": "2026-03-07T08:02:04.990Z",
+          "cutBarsUsed": 1,
+          "cutRemnant": 130,
+          "dispatchId": "IRS-001",
+          "argeResult": "olumlu",
+          "argeNotes": "",
+          "argeTestParams": [],
+          "argePhotos": [],
+          "argeDate": "2026-03-07T08:03:00.053Z",
+          "argeCompletedBy": "Taha"
+        }
+      ],
+      "priority": "urgent"
+    },
+    {
+      "id": "IE-002-1",
+      "orderId": "SIP-2026-002",
+      "customerName": "HEM TEKNİK METAL İŞLEME",
+      "customerCode": "220-42-092",
+      "date": "2026-03-07T13:41:54.016Z",
+      "deliveryDate": "2026-04-02",
+      "status": "completed",
+      "currentStep": "completed",
+      "orderType": "production",
+      "currency": "EUR",
+      "log": [
+        {
+          "ts": "2026-03-07T13:41:54.016Z",
+          "user": "Taha",
+          "action": "İş emri oluşturuldu",
+          "detail": "Sipariş: SIP-2026-002"
+        },
+        {
+          "ts": "2026-03-07T13:42:03.570Z",
+          "user": "Taha",
+          "action": "Kesim tamamlandı",
+          "detail": "1 çubuk, 0mm fire"
+        },
+        {
+          "ts": "2026-03-07T13:42:10.445Z",
+          "user": "Taha",
+          "action": "Makineye atandı",
+          "detail": "S20-1 — Bayezid Ertaş, 60dk"
+        },
+        {
+          "ts": "2026-03-07T13:42:12.588Z",
+          "user": "Taha",
+          "action": "Üretim başladı",
+          "detail": ""
+        },
+        {
+          "ts": "2026-03-07T13:42:13.186Z",
+          "user": "Taha",
+          "action": "Üretim tamamlandı",
+          "detail": "KK'ya gönderildi"
+        },
+        {
+          "ts": "2026-03-07T13:42:17.393Z",
+          "user": "Taha",
+          "action": "KK onaylandı",
+          "detail": ""
+        },
+        {
+          "ts": "2026-03-07T13:42:19.443Z",
+          "user": "Taha",
+          "action": "Lazer tamamlandı",
+          "detail": ""
+        },
+        {
+          "ts": "2026-03-07T13:42:22.531Z",
+          "user": "Taha",
+          "action": "Kaplama teslim alındı",
+          "detail": "İrsaliye: IRS-003"
+        },
+        {
+          "ts": "2026-03-07T13:42:24.260Z",
+          "user": "Taha",
+          "action": "Sevk edildi",
+          "detail": "Tamamlandı"
+        }
+      ],
+      "items": [
+        {
+          "productType": "Std. Freze",
+          "toolCode": "",
+          "productCode": "Ø25x110",
+          "diameter": 25,
+          "length": 110,
+          "qty": 3,
+          "unitPrice": 0,
+          "coatingType": "TISIN",
+          "coatingCompanyId": "CK2",
+          "materialCode": "BE-1",
+          "grinding": false,
+          "grindingType": "",
+          "estimatedMinutes": 0,
+          "pdfs": [],
+          "id": "Iefb42gdvs",
+          "woStatus": "completed",
+          "machineId": "M1",
+          "operatorId": "O1",
+          "startTime": "2026-03-07T13:42:12.578Z",
+          "endTime": "2026-03-07T13:42:13.177Z",
+          "qcChecks": {
+            "dimensionOk": false,
+            "surfaceOk": false,
+            "runoutOk": false,
+            "visualOk": false,
+            "coreDiameterOk": true,
+            "faceOk": true,
+            "toolDiaSurfaceOk": true,
+            "fluteWidthOk": true
+          },
+          "laserDone": true,
+          "coatingSent": true,
+          "coatingReceived": true,
+          "purchaseRequestId": null,
+          "cutDate": "2026-03-07T13:42:03.561Z",
+          "cutBarsUsed": 1,
+          "cutRemnant": 0,
+          "dispatchId": "IRS-003"
+        }
+      ],
+      "priority": "normal"
+    },
+    {
+      "id": "IE-004-1",
+      "orderId": "SIP-2026-004",
+      "customerName": "HEM TEKNİK METAL İÅLEME",
+      "customerCode": "220-42-092",
+      "date": "2026-03-07T15:28:14.116Z",
+      "deliveryDate": "2026-04-03",
+      "status": "completed",
+      "currentStep": "completed",
+      "orderType": "production",
+      "currency": "EUR",
+      "log": [
+        {
+          "ts": "2026-03-07T15:28:14.116Z",
+          "user": "Taha",
+          "action": "İş emri oluşturuldu",
+          "detail": "Sipariş: SIP-2026-004"
+        },
+        {
+          "ts": "2026-03-07T15:28:26.681Z",
+          "user": "Taha",
+          "action": "Kesim tamamlandı",
+          "detail": "1 çubuk, 55mm fire"
+        },
+        {
+          "ts": "2026-03-07T15:28:36.812Z",
+          "user": "Taha",
+          "action": "Makineye atandı",
+          "detail": "S20-1 â€” Bayezid Ertaş, 60dk"
+        },
+        {
+          "ts": "2026-03-07T15:28:39.331Z",
+          "user": "Taha",
+          "action": "Üretim başladı",
+          "detail": ""
+        },
+        {
+          "ts": "2026-03-07T15:28:40.227Z",
+          "user": "Taha",
+          "action": "Üretim tamamlandı",
+          "detail": "KK'ya gönderildi"
+        },
+        {
+          "ts": "2026-03-07T15:28:43.888Z",
+          "user": "Taha",
+          "action": "KK onaylandı",
+          "detail": ""
+        },
+        {
+          "ts": "2026-03-07T15:28:45.746Z",
+          "user": "Taha",
+          "action": "Lazer tamamlandı",
+          "detail": ""
+        },
+        {
+          "ts": "2026-03-07T15:28:57.484Z",
+          "user": "Taha",
+          "action": "Kaplama teslim alındı",
+          "detail": "İrsaliye: IRS-004"
+        },
+        {
+          "ts": "2026-03-07T15:29:01.145Z",
+          "user": "Taha",
+          "action": "Sevk edildi",
+          "detail": "Tamamlandı"
+        }
+      ],
+      "items": [
+        {
+          "productType": "Std. Freze",
+          "toolCode": "",
+          "productCode": "Ø10x55",
+          "diameter": 10,
+          "length": 55,
+          "qty": 5,
+          "unitPrice": 0,
+          "coatingType": "",
+          "coatingCompanyId": "CK2",
+          "materialCode": "BE-1",
+          "grinding": false,
+          "grindingType": "",
+          "isTest": false,
+          "estimatedMinutes": 0,
+          "pdfs": [],
+          "id": "Iw8d1vxm04",
+          "woStatus": "completed",
+          "machineId": "M1",
+          "operatorId": "O1",
+          "startTime": "2026-03-07T15:28:39.317Z",
+          "endTime": "2026-03-07T15:28:40.207Z",
+          "qcChecks": {
+            "dimensionOk": false,
+            "surfaceOk": false,
+            "runoutOk": false,
+            "visualOk": false,
+            "coreDiameterOk": true,
+            "faceOk": true,
+            "toolDiaSurfaceOk": true,
+            "fluteWidthOk": true
+          },
+          "laserDone": true,
+          "coatingSent": true,
+          "coatingReceived": true,
+          "purchaseRequestId": null,
+          "cutDate": "2026-03-07T15:28:26.669Z",
+          "cutBarsUsed": 1,
+          "cutRemnant": 55,
+          "dispatchId": "IRS-004"
+        }
+      ],
+      "priority": "normal"
+    }
+  ],
+  "productionJobs": [
+    {
+      "id": "uuja3iqq2",
+      "woId": "IE-001-1",
+      "itemId": "I7eyzu6br2",
+      "machineId": "M1",
+      "operatorId": "O1",
+      "status": "completed",
+      "startTime": "2026-03-07T08:18:22.742Z",
+      "endTime": "2026-03-07T08:18:24.479Z",
+      "estimatedMinutes": 42,
+      "assignedAt": 1772868351960,
+      "_blocks": [
+        {
+          "date": "2026-02-16",
+          "start": 480,
+          "end": 522,
+          "jobId": "uuja3iqq2",
+          "machineId": "M1"
+        }
+      ],
+      "_endDate": "2026-02-16",
+      "_endTime": 522
+    },
+    {
+      "id": "mnsvot9df",
+      "woId": "IE-003-1",
+      "itemId": "Ibxlgiw1lf",
+      "machineId": "M8",
+      "operatorId": "O1",
+      "status": "completed",
+      "startTime": "2026-03-07T08:02:19.888Z",
+      "endTime": "2026-03-07T08:02:29.505Z",
+      "estimatedMinutes": 60,
+      "assignedAt": 1772870535863,
+      "_blocks": [
+        {
+          "date": "2026-02-16",
+          "start": 480,
+          "end": 540,
+          "jobId": "mnsvot9df",
+          "machineId": "M8"
+        }
+      ],
+      "_endDate": "2026-02-16",
+      "_endTime": 540
+    },
+    {
+      "id": "q2zjvuinp",
+      "woId": "IE-002-1",
+      "itemId": "Iefb42gdvs",
+      "machineId": "M1",
+      "operatorId": "O1",
+      "status": "completed",
+      "startTime": "2026-03-07T13:42:12.578Z",
+      "endTime": "2026-03-07T13:42:13.177Z",
+      "estimatedMinutes": 60,
+      "assignedAt": 1772890930434
+    },
+    {
+      "id": "77r71k310",
+      "woId": "IE-004-1",
+      "itemId": "Iw8d1vxm04",
+      "machineId": "M1",
+      "operatorId": "O1",
+      "status": "completed",
+      "startTime": "2026-03-07T15:28:39.317Z",
+      "endTime": "2026-03-07T15:28:40.207Z",
+      "estimatedMinutes": 60,
+      "assignedAt": 1772897316800
+    }
+  ],
+  "machines": [
+    {
+      "id": "M1",
+      "name": "S20-1",
+      "type": "CNC",
+      "status": "active"
+    },
+    {
+      "id": "M2",
+      "name": "S20-2",
+      "type": "CNC",
+      "status": "active"
+    },
+    {
+      "id": "M3",
+      "name": "S20-3",
+      "type": "CNC",
+      "status": "active"
+    },
+    {
+      "id": "M4",
+      "name": "Studer Taşlama",
+      "type": "Taşlama",
+      "status": "active"
+    },
+    {
+      "id": "M5",
+      "name": "Lazer Markalama",
+      "type": "Lazer",
+      "status": "active"
+    },
+    {
+      "id": "M6",
+      "name": "Kesim Tezgahı",
+      "type": "Kesim",
+      "status": "active"
+    },
+    {
+      "id": "M8",
+      "name": "S22-1",
+      "type": "CNC",
+      "status": "active"
+    },
+    {
+      "id": "M9",
+      "name": "S22-2",
+      "type": "CNC",
+      "status": "active"
+    },
+    {
+      "id": "M10",
+      "name": "Saacke",
+      "type": "CNC",
+      "status": "active"
+    }
+  ],
+  "operators": [
+    {
+      "id": "O1",
+      "name": "Bayezid Ertaş",
+      "role": "CNC Operatör",
+      "shift": "Tam Gün"
+    },
+    {
+      "id": "O2",
+      "name": "Melih Poyraz",
+      "role": "CNC Operatör",
+      "shift": "Tam Gün"
+    },
+    {
+      "id": "O3",
+      "name": "Fatih Duvarcı",
+      "role": "CNC Operatör",
+      "shift": "Tam Gün"
+    },
+    {
+      "id": "O4",
+      "name": "Berat Demirel",
+      "role": "Kesimci",
+      "shift": "Tam Gün"
+    },
+    {
+      "id": "O5",
+      "name": "İbrahim Hazar",
+      "role": "Lazer Operatör",
+      "shift": "Tam Gün"
+    }
+  ],
+  "barStock": [
+    {
+      "id": "BS-BE-1-6",
+      "diameter": 6,
+      "materialCode": "BE-1",
+      "fullBars": 0,
+      "remnants": {
+        "0-45": 0,
+        "45-55": 0,
+        "55-65": 0,
+        "65-82": 0,
+        "82-110": 0,
+        "110-150": 0,
+        "165+": 0
+      }
+    },
+    {
+      "id": "BS-BE-1-25",
+      "diameter": 25,
+      "materialCode": "BE-1",
+      "fullBars": 0,
+      "remnants": {
+        "0-45": 0,
+        "45-55": 0,
+        "55-65": 0,
+        "65-82": 0,
+        "82-110": 0,
+        "110-150": 0,
+        "165+": 0
+      }
+    },
+    {
+      "id": "BS-BE-1-12",
+      "diameter": 12,
+      "materialCode": "BE-1",
+      "fullBars": 10,
+      "remnants": {
+        "0-45": 0,
+        "45-55": 0,
+        "55-65": 0,
+        "65-82": 0,
+        "82-110": 0,
+        "110-150": 1,
+        "165+": 0
+      }
+    },
+    {
+      "id": "5x1m4zf59",
+      "materialCode": "BM-1",
+      "diameter": 14,
+      "fullBars": 60,
+      "remnants": {
+        "0-45": 0,
+        "45-55": 0,
+        "55-65": 0,
+        "65-82": 0,
+        "82-110": 0,
+        "110-150": 0,
+        "165+": 0
+      }
+    },
+    {
+      "id": "BS-BE-1-10",
+      "diameter": 10,
+      "materialCode": "BE-1",
+      "fullBars": 0,
+      "remnants": {
+        "0-45": 0,
+        "45-55": 0,
+        "55-65": 1,
+        "65-82": 0,
+        "82-110": 0,
+        "110-150": 0,
+        "165+": 0
+      }
+    }
+  ],
+  "coatingQueue": [
+    {
+      "id": "IRS-001",
+      "date": "2026-03-07T08:02:37.810Z",
+      "status": "received",
+      "coatingCompanyId": "CK3",
+      "coatingCompany": {
+        "id": "CK3",
+        "name": "Oerlikon Balzers",
+        "fullName": "Oerlikon Balzers Kaplama Sanayi ve Ticaret Ltd. Şti.",
+        "address": "NOSAB Ihlamur Cad. No:16 / A 16145 Nilüfer / Bursa",
+        "tel": "0262 XXX XX XX"
+      },
+      "sender": {
+        "name": "Mihenk Kesici Takımlar San. Tic. Ltd. Şti.",
+        "address": "Fevzi Çakmak Mh. 10662.Sk No:17/A Karatay/Konya"
+      },
+      "receiver": {
+        "name": "Oerlikon Balzers Kaplama Sanayi ve Ticaret Ltd. Şti.",
+        "address": "NOSAB Ihlamur Cad. No:16 / A 16145 Nilüfer / Bursa"
+      },
+      "items": [
+        {
+          "itemId": "Ibxlgiw1lf",
+          "woId": "IE-003-1",
+          "productCode": "Ø12x100",
+          "qty": 2,
+          "coatingType": "Alcrn Pro",
+          "diameter": 12,
+          "customerName": "HEM TEKNİK METAL İŞLEME"
+        }
+      ]
+    },
+    {
+      "id": "IRS-002",
+      "date": "2026-03-07T08:18:32.592Z",
+      "status": "received",
+      "coatingCompanyId": "CK2",
+      "coatingCompany": {
+        "id": "CK2",
+        "name": "Primus",
+        "fullName": "Primus Coating Turkey Kaplama San. Tic. A.Ş.",
+        "address": "Işıktepe Organize Sanayi Bölgesi, Beyaz Sokak, No: 4H Nilüfer/Bursa",
+        "tel": ""
+      },
+      "sender": {
+        "name": "Mihenk Kesici Takımlar San. Tic. Ltd. Şti.",
+        "address": "Fevzi Çakmak Mh. 10662.Sk No:17/A Karatay/Konya"
+      },
+      "receiver": {
+        "name": "Primus Coating Turkey Kaplama San. Tic. A.Ş.",
+        "address": "Işıktepe Organize Sanayi Bölgesi, Beyaz Sokak, No: 4H Nilüfer/Bursa"
+      },
+      "items": [
+        {
+          "itemId": "I7eyzu6br2",
+          "woId": "IE-001-1",
+          "productCode": "Ø6x55",
+          "qty": 6,
+          "coatingType": "ALCRN",
+          "diameter": 6,
+          "customerName": "TOPRAK MÜH.KESİCİ TAKIM KASIM TOPRAK (GR)"
+        }
+      ]
+    },
+    {
+      "id": "IRS-003",
+      "date": "2026-03-07T13:42:21.307Z",
+      "status": "received",
+      "coatingCompanyId": "CK2",
+      "coatingCompany": {
+        "id": "CK2",
+        "name": "Primus",
+        "fullName": "Primus Coating Turkey Kaplama San. Tic. A.Ş.",
+        "address": "Işıktepe Organize Sanayi Bölgesi, Beyaz Sokak, No: 4H Nilüfer/Bursa",
+        "tel": ""
+      },
+      "sender": {
+        "name": "Mihenk Kesici Takımlar San. Tic. Ltd. Şti.",
+        "address": "Fevzi Çakmak Mh. 10662.Sk No:17/A Karatay/Konya"
+      },
+      "receiver": {
+        "name": "Primus Coating Turkey Kaplama San. Tic. A.Ş.",
+        "address": "Işıktepe Organize Sanayi Bölgesi, Beyaz Sokak, No: 4H Nilüfer/Bursa"
+      },
+      "items": [
+        {
+          "itemId": "Iefb42gdvs",
+          "woId": "IE-002-1",
+          "productCode": "Ø25x110",
+          "qty": 3,
+          "coatingType": "TISIN",
+          "diameter": 25,
+          "customerName": "HEM TEKNİK METAL İŞLEME"
+        }
+      ]
+    },
+    {
+      "id": "IRS-004",
+      "date": "2026-03-07T15:28:49.241Z",
+      "status": "received",
+      "coatingCompanyId": "CK2",
+      "coatingCompany": {
+        "id": "CK2",
+        "name": "Primus",
+        "fullName": "Primus Coating Turkey Kaplama San. Tic. A.Å.",
+        "address": "Işıktepe Organize Sanayi Bölgesi, Beyaz Sokak, No: 4H Nilüfer/Bursa",
+        "tel": ""
+      },
+      "sender": {
+        "name": "Mihenk Kesici Takımlar San. Tic. Ltd. Åti.",
+        "address": "Fevzi Çakmak Mh. 10662.Sk No:17/A Karatay/Konya"
+      },
+      "receiver": {
+        "name": "Primus Coating Turkey Kaplama San. Tic. A.Å.",
+        "address": "Işıktepe Organize Sanayi Bölgesi, Beyaz Sokak, No: 4H Nilüfer/Bursa"
+      },
+      "items": [
+        {
+          "itemId": "Iw8d1vxm04",
+          "woId": "IE-004-1",
+          "productCode": "Ø10x55",
+          "qty": 5,
+          "coatingType": "",
+          "diameter": 10,
+          "customerName": "HEM TEKNİK METAL İÅLEME"
+        }
+      ]
+    }
+  ],
+  "grindingQueue": [],
+  "purchaseRequests": [
+    {
+      "id": "ST-1772696155042",
+      "date": "2026-03-05T07:35:55.042Z",
+      "status": "received",
+      "woId": "IE-001-1",
+      "itemId": "I7eyzu6br2",
+      "productCode": "Ø6x55",
+      "diameter": 6,
+      "materialCode": "BE-1",
+      "materialColor": "#eab308",
+      "requestedBars": 1,
+      "requestedQty": 6,
+      "note": "Ø6mm BE-1 — 1 çubuk eksik",
+      "orderedDate": "2026-03-05T07:35:56.971Z",
+      "receivedDate": "2026-03-05T07:35:57.906Z"
+    },
+    {
+      "id": "ST-1772696163651",
+      "date": "2026-03-05T07:36:03.651Z",
+      "status": "received",
+      "woId": "IE-001-1",
+      "itemId": "I7eyzu6br2",
+      "productCode": "Ø6x55",
+      "diameter": 6,
+      "materialCode": "BE-1",
+      "materialColor": "#eab308",
+      "requestedBars": 1,
+      "requestedQty": 6,
+      "note": "Ø6mm BE-1 — 1 çubuk eksik",
+      "orderedDate": "2026-03-05T07:36:06.556Z",
+      "receivedDate": "2026-03-05T07:36:07.308Z"
+    },
+    {
+      "id": "ST-1772696172404",
+      "date": "2026-03-05T07:36:12.404Z",
+      "status": "received",
+      "woId": "IE-001-1",
+      "itemId": "I7eyzu6br2",
+      "productCode": "Ø6x55",
+      "diameter": 6,
+      "materialCode": "BE-1",
+      "materialColor": "#eab308",
+      "requestedBars": 1,
+      "requestedQty": 6,
+      "note": "Ø6mm BE-1 — 1 çubuk eksik",
+      "orderedDate": "2026-03-05T07:36:14.149Z",
+      "receivedDate": "2026-03-05T07:36:14.821Z"
+    },
+    {
+      "id": "ST-1772696343027",
+      "date": "2026-03-05T07:39:03.027Z",
+      "status": "received",
+      "woId": "IE-001-1",
+      "itemId": "I7eyzu6br2",
+      "productCode": "Ø6x55",
+      "diameter": 6,
+      "materialCode": "BE-1",
+      "materialColor": "#eab308",
+      "requestedBars": 1,
+      "requestedQty": 6,
+      "note": "Ø6mm BE-1 — 1 çubuk eksik",
+      "orderedDate": "2026-03-05T07:39:04.900Z",
+      "receivedDate": "2026-03-05T07:39:06.132Z"
+    },
+    {
+      "id": "ST-1772696505248",
+      "date": "2026-03-05T07:41:45.248Z",
+      "status": "received",
+      "woId": "IE-001-1",
+      "itemId": "I7eyzu6br2",
+      "productCode": "Ø6x55",
+      "diameter": 6,
+      "materialCode": "BE-1",
+      "materialColor": "#eab308",
+      "requestedBars": 1,
+      "requestedQty": 6,
+      "note": "Ø6mm BE-1 — 1 çubuk eksik",
+      "orderedDate": "2026-03-05T07:41:51.072Z",
+      "receivedDate": "2026-03-05T07:41:52.017Z"
+    },
+    {
+      "id": "ST-1772696686336",
+      "date": "2026-03-05T07:44:46.336Z",
+      "status": "received",
+      "woId": "IE-001-1",
+      "itemId": "I7eyzu6br2",
+      "productCode": "Ø6x55",
+      "diameter": 6,
+      "materialCode": "BE-1",
+      "materialColor": "#eab308",
+      "requestedBars": 1,
+      "requestedQty": 6,
+      "note": "Ø6mm BE-1 — 1 çubuk eksik",
+      "orderedDate": "2026-03-05T07:44:48.104Z",
+      "receivedDate": "2026-03-05T07:44:48.760Z"
+    },
+    {
+      "id": "ST-1772696987527",
+      "date": "2026-03-05T07:49:47.527Z",
+      "status": "received",
+      "woId": "IE-002-1",
+      "itemId": "Iefb42gdvs",
+      "productCode": "Ø25x110",
+      "diameter": 25,
+      "materialCode": "BE-1",
+      "materialColor": "#eab308",
+      "requestedBars": 1,
+      "requestedQty": 3,
+      "note": "Ø25mm BE-1 — 1 çubuk eksik",
+      "orderedDate": "2026-03-05T07:49:49.976Z",
+      "receivedDate": "2026-03-05T07:49:50.784Z"
+    },
+    {
+      "id": "ST-1772697080043",
+      "date": "2026-03-05T07:51:20.043Z",
+      "status": "received",
+      "woId": "IE-001-1",
+      "itemId": "I7eyzu6br2",
+      "productCode": "Ø6x55",
+      "diameter": 6,
+      "materialCode": "BE-1",
+      "materialColor": "#eab308",
+      "requestedBars": 1,
+      "requestedQty": 6,
+      "note": "Ø6mm BE-1 — 1 çubuk eksik",
+      "orderedDate": "2026-03-05T07:51:22.843Z",
+      "receivedDate": "2026-03-05T07:51:23.564Z"
+    },
+    {
+      "id": "ST-1772697080619",
+      "date": "2026-03-05T07:51:20.619Z",
+      "status": "received",
+      "woId": "IE-002-1",
+      "itemId": "Iefb42gdvs",
+      "productCode": "Ø25x110",
+      "diameter": 25,
+      "materialCode": "BE-1",
+      "materialColor": "#eab308",
+      "requestedBars": 1,
+      "requestedQty": 3,
+      "note": "Ø25mm BE-1 — 1 çubuk eksik",
+      "orderedDate": "2026-03-05T07:51:24.027Z",
+      "receivedDate": "2026-03-05T07:51:24.531Z"
+    },
+    {
+      "id": "ST-1772697092100",
+      "date": "2026-03-05T07:51:32.100Z",
+      "status": "received",
+      "woId": "IE-002-1",
+      "itemId": "Iefb42gdvs",
+      "productCode": "Ø25x110",
+      "diameter": 25,
+      "materialCode": "BE-1",
+      "materialColor": "#eab308",
+      "requestedBars": 1,
+      "requestedQty": 3,
+      "note": "Ø25mm BE-1 — 1 çubuk eksik",
+      "orderedDate": "2026-03-05T07:51:34.173Z",
+      "receivedDate": "2026-03-05T07:51:34.805Z"
+    },
+    {
+      "id": "ST-1772697112775",
+      "date": "2026-03-05T07:51:52.775Z",
+      "status": "received",
+      "woId": "IE-001-1",
+      "itemId": "I7eyzu6br2",
+      "productCode": "Ø6x55",
+      "diameter": 6,
+      "materialCode": "BE-1",
+      "materialColor": "#eab308",
+      "requestedBars": 1,
+      "requestedQty": 6,
+      "note": "Ø6mm BE-1 — 1 çubuk eksik",
+      "orderedDate": "2026-03-05T08:20:46.682Z",
+      "receivedDate": "2026-03-05T08:20:47.930Z"
+    },
+    {
+      "id": "ST-1772697113472",
+      "date": "2026-03-05T07:51:53.472Z",
+      "status": "received",
+      "woId": "IE-002-1",
+      "itemId": "Iefb42gdvs",
+      "productCode": "Ø25x110",
+      "diameter": 25,
+      "materialCode": "BE-1",
+      "materialColor": "#eab308",
+      "requestedBars": 1,
+      "requestedQty": 3,
+      "note": "Ø25mm BE-1 — 1 çubuk eksik",
+      "orderedDate": "2026-03-05T07:52:01.289Z",
+      "receivedDate": "2026-03-05T07:52:02.128Z"
+    },
+    {
+      "id": "ST-1772704052770",
+      "date": "2026-03-05T09:47:32.770Z",
+      "status": "received",
+      "woId": "IE-001-1",
+      "itemId": "I7eyzu6br2",
+      "productCode": "Ø6x55",
+      "diameter": 6,
+      "materialCode": "BE-1",
+      "materialColor": "#eab308",
+      "requestedBars": 1,
+      "requestedQty": 6,
+      "note": "Ø6mm BE-1 — 1 çubuk eksik",
+      "orderedDate": "2026-03-05T09:47:35.611Z",
+      "receivedDate": "2026-03-05T09:47:40.507Z"
+    },
+    {
+      "id": "ST-1772805471110",
+      "date": "2026-03-06T13:57:51.110Z",
+      "status": "received",
+      "woId": "IE-001-1",
+      "itemId": "I7eyzu6br2",
+      "productCode": "Ø6x55",
+      "diameter": 6,
+      "materialCode": "BE-1",
+      "materialColor": "#eab308",
+      "requestedBars": 1,
+      "requestedQty": 6,
+      "note": "Ø6mm BE-1 — 1 çubuk eksik",
+      "orderedDate": "2026-03-06T13:57:54.046Z",
+      "receivedDate": "2026-03-06T13:57:54.903Z"
+    },
+    {
+      "id": "ST-1772805569237",
+      "date": "2026-03-06T13:59:29.237Z",
+      "status": "received",
+      "woId": "IE-002-1",
+      "itemId": "Iefb42gdvs",
+      "productCode": "Ø25x110",
+      "diameter": 25,
+      "materialCode": "BE-1",
+      "materialColor": "#eab308",
+      "requestedBars": 1,
+      "requestedQty": 3,
+      "note": "Ø25mm BE-1 — 1 çubuk eksik",
+      "orderedDate": "2026-03-06T13:59:32.125Z",
+      "receivedDate": "2026-03-06T13:59:32.878Z"
+    },
+    {
+      "id": "ST-1772805636252",
+      "date": "2026-03-06T14:00:36.252Z",
+      "status": "received",
+      "woId": "IE-001-1",
+      "itemId": "I7eyzu6br2",
+      "productCode": "Ø6x55",
+      "diameter": 6,
+      "materialCode": "BE-1",
+      "materialColor": "#eab308",
+      "requestedBars": 1,
+      "requestedQty": 6,
+      "note": "Ø6mm BE-1 — 1 çubuk eksik",
+      "orderedDate": "2026-03-06T14:00:41.365Z",
+      "receivedDate": "2026-03-06T14:00:42.493Z"
+    },
+    {
+      "id": "ST-1772805637100",
+      "date": "2026-03-06T14:00:37.100Z",
+      "status": "received",
+      "woId": "IE-002-1",
+      "itemId": "Iefb42gdvs",
+      "productCode": "Ø25x110",
+      "diameter": 25,
+      "materialCode": "BE-1",
+      "materialColor": "#eab308",
+      "requestedBars": 1,
+      "requestedQty": 3,
+      "note": "Ø25mm BE-1 — 1 çubuk eksik",
+      "orderedDate": "2026-03-06T14:00:41.909Z",
+      "receivedDate": "2026-03-06T14:00:43.444Z"
+    },
+    {
+      "id": "ST-1772805650230",
+      "date": "2026-03-06T14:00:50.230Z",
+      "status": "received",
+      "woId": "IE-002-1",
+      "itemId": "Iefb42gdvs",
+      "productCode": "Ø25x110",
+      "diameter": 25,
+      "materialCode": "BE-1",
+      "materialColor": "#eab308",
+      "requestedBars": 1,
+      "requestedQty": 3,
+      "note": "Ø25mm BE-1 — 1 çubuk eksik",
+      "orderedDate": "2026-03-06T14:00:52.743Z",
+      "receivedDate": "2026-03-06T14:00:53.622Z"
+    },
+    {
+      "id": "ST-1772805655167",
+      "date": "2026-03-06T14:00:55.167Z",
+      "status": "received",
+      "woId": "IE-001-1",
+      "itemId": "I7eyzu6br2",
+      "productCode": "Ø6x55",
+      "diameter": 6,
+      "materialCode": "BE-1",
+      "materialColor": "#eab308",
+      "requestedBars": 1,
+      "requestedQty": 6,
+      "note": "Ø6mm BE-1 — 1 çubuk eksik",
+      "orderedDate": "2026-03-07T07:25:39.998Z",
+      "receivedDate": "2026-03-07T07:25:40.822Z"
+    },
+    {
+      "id": "ST-1772870513932",
+      "date": "2026-03-07T08:01:53.932Z",
+      "status": "received",
+      "woId": "IE-003-1",
+      "itemId": "Ibxlgiw1lf",
+      "productCode": "Ø12x100",
+      "diameter": 12,
+      "materialCode": "BE-1",
+      "materialColor": "#eab308",
+      "requestedBars": 1,
+      "requestedQty": 2,
+      "note": "Ø12mm BE-1 — 1 çubuk eksik",
+      "orderedDate": "2026-03-07T08:01:56.573Z",
+      "receivedDate": "2026-03-07T08:01:58.469Z"
+    },
+    {
+      "id": "ST-1772890916327",
+      "date": "2026-03-07T13:41:56.327Z",
+      "status": "received",
+      "woId": "IE-002-1",
+      "itemId": "Iefb42gdvs",
+      "productCode": "Ø25x110",
+      "diameter": 25,
+      "materialCode": "BE-1",
+      "materialColor": "#eab308",
+      "requestedBars": 1,
+      "requestedQty": 3,
+      "note": "Ø25mm BE-1 — 1 çubuk eksik",
+      "orderedDate": "2026-03-07T13:41:58.585Z",
+      "receivedDate": "2026-03-07T13:41:59.288Z"
+    },
+    {
+      "id": "ST-1772897297540",
+      "date": "2026-03-07T15:28:17.540Z",
+      "status": "received",
+      "woId": "IE-004-1",
+      "itemId": "Iw8d1vxm04",
+      "productCode": "Ø10x55",
+      "diameter": 10,
+      "materialCode": "BE-1",
+      "materialColor": "#eab308",
+      "requestedBars": 1,
+      "requestedQty": 5,
+      "note": "Ø10mm BE-1 — 1 çubuk eksik",
+      "orderedDate": "2026-03-07T15:28:20.964Z",
+      "receivedDate": "2026-03-07T15:28:21.844Z"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "MHK-2026-0001",
+      "orderId": "SIP-2026-001",
+      "woId": "",
+      "customerName": "TOPRAK MÜH.KESİCİ TAKIM KASIM TOPRAK (GR)",
+      "customerCode": "220-01-001",
+      "taxId": "",
+      "taxOffice": "",
+      "customerAddress": "",
+      "items": [
+        {
+          "name": "Ø6x55",
+          "qty": 6,
+          "unitPrice": 15,
+          "vatRate": 20,
+          "vatAmount": 18,
+          "lineTotal": 108,
+          "lineNet": 90
+        }
+      ],
+      "currency": "EUR",
+      "irsaliyeNo": "",
+      "irsaliyeDate": "2026-03-07",
+      "dueDate": "",
+      "bankInfo": null,
+      "paymentTerms": "",
+      "status": "draft",
+      "parasutId": null,
+      "createdAt": "2026-03-07T08:18:44.025Z",
+      "sentAt": null,
+      "paidAt": null,
+      "cancelledAt": null,
+      "notes": "",
+      "subtotal": 90,
+      "totalVat": 18,
+      "grandTotal": 108
+    },
+    {
+      "id": "MHK-2026-0002",
+      "orderId": "SIP-2026-002",
+      "woId": "",
+      "customerName": "HEM TEKNİK METAL İŞLEME",
+      "customerCode": "220-42-092",
+      "taxId": "",
+      "taxOffice": "",
+      "customerAddress": "",
+      "items": [
+        {
+          "name": "Ø25x110",
+          "qty": 3,
+          "unitPrice": 0,
+          "vatRate": 20,
+          "vatAmount": 0,
+          "lineTotal": 0,
+          "lineNet": 0
+        }
+      ],
+      "currency": "EUR",
+      "irsaliyeNo": "",
+      "irsaliyeDate": "2026-03-07",
+      "dueDate": "",
+      "bankInfo": null,
+      "paymentTerms": "",
+      "status": "draft",
+      "parasutId": null,
+      "createdAt": "2026-03-07T13:42:33.917Z",
+      "sentAt": null,
+      "paidAt": null,
+      "cancelledAt": null,
+      "notes": "",
+      "subtotal": 0,
+      "totalVat": 0,
+      "grandTotal": 0
+    }
+  ],
+  "_version": 188,
+  "_createdAt": "2026-03-05T07:34:51.586Z",
+  "uploadFiles": {},
+  "parasutConfig": {
+    "clientId": "",
+    "clientSecret": "",
+    "companyId": ""
+  }
+}

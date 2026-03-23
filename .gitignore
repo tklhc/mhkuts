@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Secrets
+.jwt-secret
+.env
+
+# Database & data
+mt.sqlite
+mt.sqlite-shm
+mt.sqlite-wal
+data.json
+
+# Backups & uploads
+backups/
+uploads/
+
+# Build output
+public/index.html
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
